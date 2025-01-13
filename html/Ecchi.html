@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AnimeMap</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/Ecchi.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap" rel="stylesheet">
@@ -11,17 +11,29 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body >
     <header class="text-center my-4">
         <h1>AnimeMap</h1>
     </header>
+    <div id="content" style="display: none;">
+        <h1>Benvenuto!</h1>
+    </div>
+    
+    <div id="denied" style="display: none;">
+        <h1>Accesso Negato</h1>
+        <h1>Devi avere almeno 16 anni per continuare.</h1>
+    </div>
+    
+    <div id="Ecchi" style="display: block;">
+        <h1>Contenuto speciale</h1>
+    </div>
     <main class="container">
         <div class="container px-5 text-center mt-5">
             <button type="button" class="btn btn-primary mb-3">
                 <a class="text-light text-decoration-none" href="/index.html"><i class="fa-solid fa-arrow-left"></i> Indietro</a>
             </button>
         </div>
-        <div class="row g-4">
+        <div class="row g-4" id="Ecchi-1"style="display: none;">
             <div class="col-md-4">
                 <div class="card h-100">
                     <img src="/img/High_School_DXD-cover.jpg" class="card-img-top" >
@@ -31,7 +43,7 @@
                 </div>
             </div>
     
-            <div class="col-md-4">
+            <div class="col-md-4" id="Ecchi-2" style="display: none;">
                 <div class="card h-100">
                     <img src="/img/highschool-of-the-dead-miyamoto-rei-1680x1050-anime-hot-anime-hd-art-wallpaper-preview.jpg" class="card-img-top" >
                     <div class="card-body">
